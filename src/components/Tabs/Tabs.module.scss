@@ -1,0 +1,37 @@
+.tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  // margin-bottom: 20px;
+}
+
+.button {
+  width: 168px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 167%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #dfe5ec;
+  padding: 13px 20px;
+  margin-left: -1px;
+}
+
+.tabs li:first-child .button {
+  border-radius: 7px 0 0 7px;
+}
+
+.tabs li:last-child .button {
+  border-radius: 0 7px 7px 0;
+}
+
+.active {
+  background-color: #2196f3;
+  color: white;
+}
